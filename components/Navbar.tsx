@@ -31,7 +31,7 @@ const Navbar = () => {
                     className="inline-block cursor-pointer"
                     onClick={() => setToggle((prev) => !prev)}
                 />
-                <div className={`${toggle ? "flex" : "hidden"} p-6 absolute top-20 right-0 mx-4 my-2 min-w-[220px] rounded-xl btn_green transition-transform duration-200 ease-in `}>
+                <div className={`${toggle ? "flex" : "hidden"} p-6 absolute top-20 right-0 mx-4 my-2 min-w-[220px] rounded-xl btn_green sidebar`}>
                     <ul className="list-none flex flex-col justify-end items-center flex-1">
                         {NAV_LINKS.map((link) => (
                             <Link key={link.key} href={link.href} className="inline-block font-normal cursor-pointer text-[16px] text-white py-1 hover:font-bold ">{link.label}</Link>
