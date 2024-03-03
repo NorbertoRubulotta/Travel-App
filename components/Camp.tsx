@@ -43,7 +43,6 @@ const CampSite = ({
           <p className="bold-16 md:bold-20 text-white">{peopleJoined}</p>
         </div>
       </div>
-      Camp Site
     </div>
   );
 };
